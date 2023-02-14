@@ -1,0 +1,54 @@
+.top-bar
+{
+     background-color: rgba(19, 13, 102, 0.859);
+     height: 2.4em;
+     position: relative;
+     margin: 0;
+     padding: 0;
+     -webkit-font-smoothing: antialiased;
+}
+.navbar{
+   font-weight: 600;     
+   position: relative;
+   display: flex;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+
+}
+ .sticky-top{
+
+ 
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+
+  .underline {
+    display: inline-block;
+    position: relative;
+    
+  }
+  .nav-item{
+    font-size: 21px;
+   
+     font-family:New Century Schoolbook, TeX Gyre Schola, serif; 
+  }
+  
+  .underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0.3em;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .underline:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

@@ -1,0 +1,126 @@
+.dept-buttons button
+{
+    font-family: fantasy;
+    font-size: 13px;
+    border-radius: 18px;
+    background-color: #d2e2e3;
+    border: transparent;
+    color: #1c376bd6;
+    box-shadow: 1px 2px 7px #c2c2c2;
+    width: 118px;
+    height: 40px;
+    font-weight: 100;
+}
+
+.docter-img{
+    width: 300px;
+    height: 340px;
+    border: solid 1px #dfdada;
+    border-radius: 19px;
+    
+}
+
+.modal-content{
+    width: 450px;
+    height: 494px;
+    background-color: rgb(255 255 255);
+    border: 2px solid rgb(10 5 56 / 44%);
+    border-radius: 67px;
+    position: absolute;
+}
+.modal-body{
+    margin-top: -11px;
+    position: absolute;
+    
+
+}
+.btn-close{
+    margin-left: 382px;
+    margin-top: 41px;
+}
+i{
+    position: absolute;
+    font-size: 36px;
+    color: rgb(167, 157, 157);
+    margin-left: 368px;
+    margin-top: 37px;
+}
+hr{
+    border-radius: 105%;
+    margin: -4rem 50px;
+    color: inherit;
+    border: 2px solid grey;
+    border-top: 1px solid;
+    opacity: .25;
+}
+form{
+    margin-top: 106px;
+    margin-left: 83px;
+}
+.details{
+    font-family: sans-serif;
+    color: #4c3571;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 4;
+}
+.input-box{
+    height: 32px;
+    font-size: 10px;
+    background-color: #f4edff;
+    border-radius: 7px;
+    border: 2px solid #e1e1e1;
+    margin-left: 64px;
+    box-shadow: 2px 3px 5px -3px grey;
+    width: 165px;
+    font-weight: 200;
+
+}
+
+#third{
+    margin-left: 14px;
+}
+.btnh{
+    height: 29px;
+    font-weight: 900;
+    font-size: 10px;
+    border-radius: 6px;
+    background-color: #c3c2e7;
+    border: 1px solid #a8a0b7;
+    box-shadow: 1px 1px 3px darkgrey;
+    font-family: sans-serif;
+    color: #311a4f;
+    width: 121px;
+    margin-left: 18px;
+    margin-top: 22px;
+}
+.btn-booking{
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #c3c2e7;
+    border: 1px solid #a8a0b7;
+    box-shadow: 1px 1px 3px darkgrey;
+    font-family: sans-serif;
+    color: #311a4f;
+    height: 34px;
+    width: 262px;
+}
+.time-buttons{
+    margin-left: -17px;
+}
+.btn-booking{
+    margin-top: 50px;
+}
+.booking{
+    width: 201px;
+    border-radius: 7px;
+    background-color: #c3c2e7;
+    color: #2c1944;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px 1px #6e549d;
+    font-weight: 700;
+    font-family: sans-serif;
+    border: 1px solid #7775d50f;
+    height: 38px;
+}

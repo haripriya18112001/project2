@@ -1,0 +1,13 @@
+button
+{
+    font-family: monospace;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 13px;
+    background-color: #85B0B3;
+    border: transparent;
+    color: #082255;
+    box-shadow: 1px 4px 9px #2b2525;
+    width: 110px;
+    height: 40px;
+}

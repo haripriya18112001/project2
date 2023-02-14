@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #2874A6  ;
+    padding: 10px;
+    margin-top:10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    
+      
+     .icon-bar{
+        padding-right: 30px;
+     }
+     .form1{
+        text-align: left;
+     }
+     button{
+        width: 100%;
+        
+     }
+     label.eh :hover{
+      background-color: blue;
+
+     }
+    h2{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+      }
+  }

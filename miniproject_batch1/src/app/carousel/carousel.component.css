@@ -1,0 +1,28 @@
+.carousel-item
+{
+     height: 32rem;
+     background-color: #454242;
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-blend-mode:overlay;
+
+}
+.container{
+     position: absolute;
+     top:8rem;
+     left: 0;
+     right: 0;
+     padding-bottom: 50px;
+}
+.bold{
+     color: aqua;
+}
+.bolder{
+   color: rgb(255, 255, 255);  
+}
+hr{
+     color: aqua;
+     border: 2px solid ;
+     width: 26%;
+}

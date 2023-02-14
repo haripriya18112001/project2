@@ -1,0 +1,48 @@
+<br><br><br><br><br>
+<div>
+    
+<div class="row" *ngIf="show == false">
+    <div class="container">
+        <div class="col-md-12 col-xs-12 col-sm-12 col-xl-12 ">
+            <div>
+            <button class="ms-5"><b>ORTHOPEDICS</b></button> &nbsp; &nbsp;
+            <button class="ms-5" ><b>AUDIOLOGY</b></button>  &nbsp; &nbsp;
+            <button class="ms-5"><b>CARDIOLOGY</b></button>  &nbsp; &nbsp;
+            <button class="ms-5"><b>PSYCHOLOGY</b></button>  &nbsp; &nbsp;
+            <button class="ms-5"><b>DIETICIAN</b></button>  &nbsp; &nbsp;
+            <button class="ms-5"><b>ENDOCRINOLOGY</b></button> &nbsp; &nbsp;
+            <button class="ms-5"><b>NEPHROLOGY</b></button>  &nbsp; &nbsp;
+            <button class="ms-5"><b>PEDIATRICS</b></button>  
+            </div>
+
+            </div>
+    </div>
+</div>
+<br><br>
+<div  class="row ms-5" *ngIf="show == false">
+    <div class="card col-md-3 ms-5 " *ngFor="let item of datas" style="width: 280px; height: 300px; border: transparent;" (click)="doctorDep(item)">
+        <img class="card-img-top" src="{{item.image}}" style="width: 250px; height: 300px; border: 1px solid black;
+        border-radius: 16px;">
+        <div class="body" style="text-align:center; font-family: monospace; font-size: 19px; color: #082255; margin-top: -126px; background-color: #80deea9e; width: 250px; ">
+            <p><b>DR. {{item.name}}</b></p>
+            <p><b>{{item.depart}}</b></p>
+        </div>
+      </div>
+</div>
+
+<br><br>
+<div  class="row ms-5" *ngIf="show == false">
+    <div class="card col-md-3 ms-5" *ngFor="let item2 of data" style="width: 280px; height: 300px;border: transparent;" (click)="doctorDep(item2)">
+        <img class="card-img-top" src="{{item2.image}}" style="width: 250px; height: 300px; border: 1px solid black;
+        border-radius: 16px;">
+        <div class="body" style="text-align:center; font-family: monospace; font-size: 19px; color: #082255; margin-top: -126px; background-color: #80deea9e; width: 250px; ">
+            <p><b> {{item2.name}}</b></p>
+            <p><b>{{item2.depart}}</b></p>
+        </div>
+      </div>
+</div>
+</div>
+<div *ngIf="show == true">
+    <app-profile [x]='store' (back)="show=$event"> </app-profile>
+  </div>
+
